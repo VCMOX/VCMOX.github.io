@@ -1,8 +1,15 @@
 ul {
-    font-family: Helvetica;
+    font-family: times;
+    font-weight:lighter;
     list-style: none;
 }
 a:link {
   text-decoration:none;
-  color: orange;
+  color: lightblue;
+  font-size: 19px;
+}
+footer {
+  font-family:serif;
+  font-weight: lighter;
+  font-kerning: normal;
 }
