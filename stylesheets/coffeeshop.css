@@ -38,6 +38,11 @@ h2 {
   margin-top: 0px;
 }
 
+h3 {
+  
+  float: right;
+}
+
 p {
   margin-bottom:16px;
 }
