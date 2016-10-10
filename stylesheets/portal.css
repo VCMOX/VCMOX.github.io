@@ -1,8 +1,8 @@
 ul {
-    font-family: verdana;
+    font-family: Helvetica;
     list-style: none;
 }
 a:link {
   text-decoration:none;
-  color: pink;
+  color: orange;
 }
