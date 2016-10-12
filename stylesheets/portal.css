@@ -1,23 +1,28 @@
 <<<<<<< HEAD
 =======
-
+header {
+  font-family: 'Oranienbaum', serif;
+}
 ul {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
+    color: lightblue;
     font-weight:lighter;
     list-style: none;
-    color: lightblue;
+    margin: auto;
+
 
 }
+
 a:link {
   text-decoration:none;
   color: lightblue;
   font-size: 19px;
 }
 footer {
-  font-family:serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Satisfy', cursive;
   font-weight: lighter;
   font-kerning: normal;
+
 }
 body {
   width: 960px;
