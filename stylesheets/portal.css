@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+=======
+ul {
+    font-family: times;
+    font-weight:lighter;
+    list-style: none;
+}
+a:link {
+  text-decoration:none;
+  color: lightblue;
+  font-size: 19px;
+}
+footer {
+  font-family:serif;
+  font-weight: lighter;
+  font-kerning: normal;
+}
+body {
+  width: 960px;
+  margin: auto;
+}
+>>>>>>> origin/master
 nav ul {
   list-style-type: none;
   margin-bottom: 60px;
