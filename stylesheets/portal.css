@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 =======
+
 ul {
-    font-family: times;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
     font-weight:lighter;
     list-style: none;
+    color: lightblue;
+
 }
 a:link {
   text-decoration:none;
@@ -20,9 +24,3 @@ body {
   margin: auto;
 }
 >>>>>>> origin/master
-nav ul {
-  list-style-type: none;
-  margin-bottom: 60px;
-  padding-left: 0px;
-  margin-top: 0px;
-}
