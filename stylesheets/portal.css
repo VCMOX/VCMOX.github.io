@@ -59,12 +59,13 @@ header {
   background-color: rgb(201, 233, 235);
   width: 940px;
   height: 330px;
+	margin-bottom: 260px;
+	margin-top: -60px;
 
 }
 img {
   margin-left: 70px;
-  margin-bottom: 250px;
-  margin-top: 60px;
+	margin-top: 60px;
 
 }
 
@@ -120,12 +121,6 @@ ul {
 
 /* links at footer */
 
-.links {
-  clear: both;
-	text-decoration: none;
-	margin-bottom: 40px;
-}
-
 p {
 	margin-top: 85px;
 	margin-left: -73px;
@@ -133,31 +128,27 @@ p {
 	color: rgb(201, 233, 235);
 }
 
+.links {
+  clear: both;
+	text-decoration: none;
+	margin-bottom: 40px;
+}
 
 footer a {
 
 	font-family: 'Pompiere', cursive;
   font-size: 20px;
   letter-spacing: 3px;
+	text-decoration: none;
+	background-color: rgb(201, 233, 235);
   color: rgb(116, 161, 181);
-
-  text-decoration: none;
-	margin-top: -79px;
-
 
 	margin-top: 20px;
 	display: block;
 	line-height:30px;
 	height: 30px;
 	width: 940px;
-	text-decoration: none;
-
-
-
-	background-color: rgb(201, 233, 235);
-
-
-}
+	}
 
 
 footer a:hover {
