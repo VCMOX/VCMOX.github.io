@@ -1,31 +1,165 @@
-<<<<<<< HEAD
-=======
-header {
-  font-family: 'Oranienbaum', serif;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-ul {
-    color: lightblue;
-    font-weight:lighter;
-    list-style: none;
-    margin: auto;
-
-
-}
-
-a:link {
-  text-decoration:none;
-  color: lightblue;
-  font-size: 19px;
-}
-footer {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-family: 'Satisfy', cursive;
-  font-weight: lighter;
-  font-kerning: normal;
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  width: 960px;
-  margin: auto;
+	line-height: 1;
 }
->>>>>>> origin/master
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF CSS REST*/
+
+/* HEADER AND BODY*/
+body {
+  background-color: white;
+  margin-top: 200px;
+  margin-left: 135px;
+
+}
+header {
+  background-color: rgb(201, 233, 235);
+  width: 940px;
+  height: 330px;
+
+}
+img {
+  margin-left: 70px;
+  margin-bottom: 250px;
+  margin-top: 60px;
+
+}
+
+/*NAV BAR*/
+
+.options {
+  background-color: white;
+  height: 200px;
+  width: 940px;
+  margin-top: 65px;
+}
+
+
+
+ul a {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Cormorant SC', serif;
+  color: rgb(116, 161, 181);
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 9px;
+
+	display: block;
+
+
+	background-color: white;
+	color: rgb(116, 161, 181);
+
+	font-weight: bold;
+	font-size: 20px;
+
+	line-height:60px;
+	height: 60px;
+
+
+	text-decoration: none;
+
+	padding-left: 25px;
+	border-bottom: 5px solid rgb(201, 233, 235);
+	border-top: 5px solid rgb(201, 233, 235);
+	margin-bottom: -15px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Cormorant SC', serif;
+  color: rgb(116, 161, 181);
+  text-align: center;
+}
+
+
+/* links at footer */
+
+.links {
+  clear: both;
+	text-decoration: none;
+	margin-bottom: 40px;
+}
+
+p {
+	margin-top: 85px;
+	margin-left: -73px;
+	position: absolute;
+	color: rgb(201, 233, 235);
+}
+
+
+footer a {
+
+	font-family: 'Pompiere', cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: rgb(116, 161, 181);
+
+  text-decoration: none;
+	margin-top: -79px;
+
+
+	margin-top: 20px;
+	display: block;
+	line-height:30px;
+	height: 30px;
+	width: 940px;
+	text-decoration: none;
+
+
+
+	background-color: rgb(201, 233, 235);
+
+
+}
+
+
+footer a:hover {
+  background: rgb(226, 170, 191);
+}
