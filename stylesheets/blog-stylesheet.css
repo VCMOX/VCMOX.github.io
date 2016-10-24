@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF CSS REST*/
+
+/* Body Layout*/
+
+body {
+  background-color: white;
+  margin-top: 200px;
+  margin-left: 135px;
+}
+
+header {
+  background-color: rgb(201, 233, 235);
+  width: 940px;
+  height: 330px;
+	margin-bottom: 260px;
+	margin-top: -60px;
+}
+
+img {
+  margin-left: 70px;
+	margin-top: 60px;
+}
+
+/*NAV Bar*/
+
+nav {
+  background-color: white;
+  height: 200px;
+  width: 940px;
+  margin-top: 65px;
+}
+
+
+ul a {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Cormorant SC', serif;
+  color: rgb(116, 161, 181);
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 9px;
+
+	display: block;
+
+
+	background-color: white;
+	color: rgb(116, 161, 181);
+
+	font-weight: bold;
+	font-size: 20px;
+
+	line-height:60px;
+	height: 60px;
+
+
+	text-decoration: none;
+
+	padding-left: 25px;
+	border-bottom: 5px solid rgb(201, 233, 235);
+	border-top: 5px solid rgb(201, 233, 235);
+	margin-bottom: -15px;
+}
+/* Blog content*/
+article {
+  height: 1100px;
+  width: 940px;
+  margin-top: 65px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(201, 233, 235);
+  border-top: 5px solid rgb(201, 233, 235);
+}
+
+h2 {
+  font-family: 'Cormorant SC', serif;
+  color: rgb(116, 161, 181);
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+p{
+  font-family: 'Pompiere', cursive;
+  font-size: 20px;
+  border-top: 5px solid rgb(201, 233, 235);
+  margin-bottom: 11px;
+}
+footer a {
+  font-family: 'Pompiere', cursive;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(226, 170, 191);
+}
