@@ -82,7 +82,7 @@ nav {
 ul a {
   text-decoration: none;
   list-style: none;
-  font-family: 'Cormorant SC', serif;
+  font-family: 'Chonburi', cursive;
   color: rgb(116, 161, 181);
   font-size: 30px;
   text-align: center;
@@ -110,7 +110,7 @@ ul a {
 }
 /* Blog content*/
 article {
-  height: 1100px;
+  height: 1200px;
   width: 940px;
   margin-top: 65px;
   background-color: white;
@@ -120,20 +120,22 @@ article {
 }
 
 h2 {
-  font-family: 'Cormorant SC', serif;
+  font-family: 'Chonburi', cursive;
   color: rgb(116, 161, 181);
   font-size: 30px;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 p{
-  font-family: 'Pompiere', cursive;
+  font-family: 'Oranienbaum', serif;
   font-size: 20px;
   border-top: 5px solid rgb(201, 233, 235);
+  margin-top: 9px;
   margin-bottom: 11px;
 }
 footer a {
-  font-family: 'Pompiere', cursive;
+
   font-size: 15px;
   text-decoration: none;
   color: rgb(226, 170, 191);
