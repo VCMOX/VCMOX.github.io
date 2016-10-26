@@ -83,7 +83,7 @@ img {
 ul a {
   text-decoration: none;
   list-style: none;
-  font-family: 'Cormorant SC', serif;
+  font-family: 'Chonburi', cursive;
   color: rgb(116, 161, 181);
   font-size: 30px;
   text-align: center;
@@ -113,7 +113,7 @@ ul a {
 ul {
   text-decoration: none;
   list-style: none;
-  font-family: 'Cormorant SC', serif;
+  font-family: 'Chonburi', cursive;
   color: rgb(116, 161, 181);
   text-align: center;
 }
@@ -126,6 +126,7 @@ p {
 	margin-left: -73px;
 	position: absolute;
 	color: rgb(201, 233, 235);
+	border:6px solid rgb(201, 233, 235);
 }
 
 .links {
