@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Camera Lens</title>
+     <mata charset="utf-8">
+     <link href="stylesheets/cameralens.css" rel="stylesheet">
+     <mata name ="description" content="Camera Lens">
+</head>
+
+<body>
+      <selection>
+         <header>
+           <h1><a href="cameralens.html"><img src="images/--" alt="background"/></a><h1>
+         </header>
+
+         <nav>
+           <ul>
+             <li><a href="#">Past</a></li>
+             <li><a href="#">Present</a></li>
+             <li><a href="#">Future</a></li>
+             <li><a href="#">Links</a></li>
+           </ul>
+         </nav>
+
+        <article>
+         <p></p>
+        </article>
+
+       <footer>
+       </footer>
+
+     </section>
+   </body>
+</html>
