@@ -50,13 +50,19 @@ table {
 
 /*background*/
 body {
+  background: url(cc-bg.jpg);
 
+}
+img {
+  height: 300px;
+  width: 400px;
 }
 nav {
   font-family: 'Oxygen', sans-serif;
+  color: white;
 
 }
-a li {
+li a {
   text-decoration: none;
 }
 
@@ -66,11 +72,13 @@ a li {
 h1 {
   font-family: 'Oxygen', sans-serif;
   font-size: 40px;
+  color: white;
+  letter-spacing: 4px;
 }
 .line-separator{
   height:1px;
-  background:#717171;
-  border-bottom:1px solid #313030;
+  background:white;
+  border-bottom:1px solid white;
   width: 430px;
 }
 
@@ -78,4 +86,5 @@ h1 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
