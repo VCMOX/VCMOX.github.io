@@ -49,3 +49,33 @@ table {
 /* end css reset */
 
 /*background*/
+body {
+
+}
+nav {
+  font-family: 'Oxygen', sans-serif;
+
+}
+a li {
+  text-decoration: none;
+}
+
+.col {
+}
+
+h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 40px;
+}
+.line-separator{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
+  width: 430px;
+}
+
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
