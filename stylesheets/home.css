@@ -84,13 +84,12 @@ ul a {
 	letter-spacing: 4px;
   font-weight: bold;
 	line-height:120px;
-
 	text-decoration: none;
 
 }
 
 .wp-caption {
-position: relative;
+position: absolute;
 
 padding: 0;
 margin: 0;
@@ -115,21 +114,12 @@ z-index: 8;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 }
-
-h2 {
-	te
-}
-p {
-
-}
-
 footer a {
 
   font-size: 15px;
   text-decoration: none;
-  color: rgba(254, 250, 255, 0.4);
+  color: rgba(254, 250, 255, 0.9);
 	margin-top: 110px;
 	margin-left: 999px;
-
 	position: absolute;
 }
