@@ -54,21 +54,13 @@ table {
 /* ~~~ end css reset ~~~ */
 
 /*---start of header styles---*/
-header {
-  width:75%;
-  height:192px;
-  display:table;
-  margin:auto;
+header{
+  width:110px;
+  height: 200px;
 }
 
-.logo{
 
-}
+/*--nav styles--*/
 
-.headline {
 
-}
-
-h1 {
-
-}
+/*--end nav styles--*/
