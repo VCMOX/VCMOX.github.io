@@ -51,22 +51,67 @@ table {
 
 /* ~~~ end css reset ~~~ */
 
-/*---start of header styles---*/
+/*---struct styles---*/
+.pgone {
+ max-width: 1024px;
+ margin:auto;
+ }
+/*--end struct styles--*/
+
+/*--srt header--*/
 header {
-  margin-right: auto;
+  width: 75%;
+  height: 192px;
+  display: table;
+  margin: auto;
+}
+.logo {
+  width: 18.75%;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.headline {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-left: 5%;
+}
+h1 {
+  color: rgb(222,177,184);
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 4%;
+}
+h2 {
+  color: rgb(222,177,184);
+}
+h3 {
+  color: rgb(168,109,116);
 }
 
 
+/* tablet */
+@media (max-width: 768px) {
+  .logo {
+    width: 100%;
+    margin: 5% 0 5% 0;
+    display: block;
+    text-align: center;
+  }
+
+  .headline {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
 
 
+/*-- end header styles --*/
 /*--nav styles--*/
 
 /*-- headline--*/
 
 
-h1 {
-  color: rgb(130,86,101);
-}
+
 
 
 
