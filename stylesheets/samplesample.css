@@ -1,0 +1,225 @@
+/* ~~~START CSS RESET~~~ */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: sans-serif;
+  background-color: #bbb;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ~~~ end css reset ~~~ */
+
+/* desktop site */
+
+/* ~~~ START STRUCTURAL STYLES ~~~ */
+
+.wrapper {
+  max-width: 1024px;
+  margin: auto;
+  background-color: white;
+}
+
+/* ~~~ end structural styles ~~~ */
+
+/* ~~~ START HEADER STYLES ~~~ */
+
+header {
+  width: 75%;
+  height: 192px;
+  display: table;
+  margin: auto;
+  color: rgb(182,160,160);
+  font-family: 'Voltaire', sans-serif;
+}
+
+.logo-wrapper {
+  width: 18.75%;
+  display: table-cell;
+  padding-top: 16px;
+  vertical-align: bottom;
+}
+
+.headline-wrapper {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-left: 5%;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 3%;
+  font-family: 'Sofia', cursive;
+}
+
+
+/* tablet */
+@media (max-width: 768px) {
+  .logo-wrapper {
+    width: 100%;
+    margin-left: 30px;
+    display: block;
+    vertical-align: bottom;
+  }
+
+  .headline-wrapper {
+    display: block;
+    padding: 0;
+    text-align: center;
+    vertical-align: bottom;
+  }
+}
+
+/* ~~~ end header styles ~~~ */
+
+/* ~~~ START NAV STYLES ~~~ */
+
+.main-nav {
+  width: 75%;
+  margin: auto;
+  font-family: 'Voltaire', sans-serif;
+}
+
+.main-nav ul {
+  width: 100%;
+  display: table;
+}
+
+.main-nav li {
+  width: 15%;
+  height: 48px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+a, a:visited {
+  text-decoration: none;
+  color: rgb(222,177,184);
+}
+
+a:hover, a:active {
+  color: darkgreen;
+}
+/*tab*/
+
+@media (max-width: 768px) {
+  .main-nav ul {
+    display: block;
+}
+  .main-nav ul li {
+    width: 100%;
+    display: block;
+    vertical-align: bottom;
+
+  }
+}
+/* mobile */
+@media (max-width: 375px) {
+  .main-nav ul {
+    display: block;
+    text-align: center;
+  }
+  .main-nav ul li {
+    width: 100%;
+    display: block;
+    vertical-align: bottom;
+
+  }
+}
+
+/* ~~~ end nav styles ~~~ */
+
+/* ~~~ START MAIN CONTENT STYLES ~~~ */
+
+main {
+    width: 75%;
+    display: table;
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    height: 144px;
+    text-align: center;
+    line-height: 19px;
+    border: 1px solid rgb(182,160,160);
+}
+
+ p {
+   text-align: left;
+   padding: 30px;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+/* mobile */
+@media (max-width: 375px) {
+ main {
+     border: 1px solid rgb(182,160,160);
+   }
+   p {
+     text-align: center;
+
+   }
+ }
+/* tablet */
+@media (max-width: 768px) {
+
+}
+
+/* ~~~ end main content styles ~~~ */
+
+/* ~~~ START FOOTER STYLES ~~~ */
+
+footer {
+  font-family: 'Voltaire', sans-serif;
+  width: 75%;
+  text-align: center;
+  line-height: 144px;
+  margin-left: 60px;
+
+}
+
+/* ~~~ end footer styles ~~~ */

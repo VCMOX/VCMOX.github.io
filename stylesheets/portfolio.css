@@ -65,7 +65,7 @@ header {
   display: table;
   margin: auto;
 }
-.logo {
+.logo-wrapper{
   width: 18.75%;
   display: table-cell;
   vertical-align: bottom;
@@ -76,11 +76,27 @@ header {
   padding-left: 5%;
 }
 h1 {
-  color: rgb(222,177,184);
+  color: rgb(140,113,113);
   font-size: 4em;
   font-weight: 700;
   margin-bottom: 4%;
+  font-family: 'Playfair Display SC', serif;
 }
+h2 {
+  color: rgb(182,160,160);
+  font-family: 'Josefin Sans', sans-serif;
+}
+h3 {
+  color: rgb(182,160,160);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*--symbol--*/
+
+  img.resize{
+      width:40%; /* you can use % */
+      height: auto;
+  }
 
 
 /* tablet */
@@ -102,7 +118,7 @@ h1 {
 /*-- end header styles --*/
 /*--nav styles--*/
 
-/*-- headline--*/
+
 
 
 
