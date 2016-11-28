@@ -72,6 +72,7 @@ header {
   width: 75%;
   height: 192px;
   display: table;
+
   margin: auto;
   color: rgb(182,160,160);
   font-family: 'Voltaire', sans-serif;
@@ -89,7 +90,8 @@ header {
 .headline-wrapper {
   display: table-cell;
   vertical-align: bottom;
-  padding-left: 5%;
+  padding-left: 7%;
+
 }
 
 h1 {
@@ -103,7 +105,9 @@ h1 {
 @media (max-width: 768px) {
   .logo-wrapper {
     width: 100%;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-top: 28px
+    margin-bottom: 20px;
     display: block;
     vertical-align: bottom;
   }
@@ -171,6 +175,7 @@ a:hover, a:active {
   }
   .main-nav ul li {
     width: 100%;
+
     display: block;
     vertical-align: bottom;
 
