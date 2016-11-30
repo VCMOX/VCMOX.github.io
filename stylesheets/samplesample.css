@@ -81,6 +81,7 @@ header {
   display: table-cell;
   padding-top: 16px;
   vertical-align: bottom;
+
 }
 
 .headline-wrapper {
@@ -100,7 +101,7 @@ h1 {
 @media (max-width: 768px) {
   .logo-wrapper {
     width: 100%;
-    margin-left: 30px;
+    margin-left: 36px;
     display: block;
     vertical-align: bottom;
   }
@@ -112,7 +113,13 @@ h1 {
     vertical-align: bottom;
   }
 }
+/* mobile */
+@media (max-width: 375px) {
+  .logo-wrapper {
+		margin-left: 16px;
 
+	 }
+  }
 /* ~~~ end header styles ~~~ */
 
 /* ~~~ START NAV STYLES ~~~ */
